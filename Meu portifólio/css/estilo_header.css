@@ -1,39 +1,104 @@
-*{
-    margin: 0px;    
-}
-a:hover{
-    padding: 5px;
-    background-color: white;
-    transition-duration: 1s ease;
-    border-radius: 5px;
-}
-header{    
-    background-color:lightgray;
-    font-size: 18px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
     font-family: Arial, Helvetica, sans-serif;
-}
-#lista{
-    
-    list-style: none;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  
+  .header {
+    background: #111;
+    padding: 20px;
+  }
+  
+  .nav-list {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-#lista li{    
-    padding: 20px 0px;
-    
-}
-
-#lista a{
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav-list a {
+    color: white;
     text-decoration: none;
-    color:black;
+    font-weight: bold;
+  }
+  
+  .logo {
+   
+.logo {
+    transition: transform 0.3s ease; 
 }
 
-#logo{
-  height:15px;
-  width: 100px;
+.logo:hover {
+    transform: scale(1.2);
 }
-#fundoimg{
-    background-color: white;
-}
+  }
+  
+
+  section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .subtitulo {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+ 
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    background: #111;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #333;
+  }
+  
+  
+  .footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  

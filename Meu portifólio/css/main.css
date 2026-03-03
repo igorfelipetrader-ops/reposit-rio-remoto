@@ -6,6 +6,8 @@
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 .linha{
     margin-top: 15px;
